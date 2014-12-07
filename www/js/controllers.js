@@ -1,6 +1,6 @@
 angular.module('starter')
 .controller('AppCtrl', ['$scope', '$window', '$state', function(scope, w, state) {
-    scope.tablet = w.innerWidth >= 768;
+    scope.tablet = w.innerWidth >= 768 || w.innerHeight >= 768;
 
     scope.$on('$stateChangeSuccess', function(event, toState, toParams, fromState, fromParams) {
         scope.sideMenuBase = state.includes("menu.base.*"); 
