@@ -21,6 +21,7 @@ angular.module('starter')
 
       el.find('ion-view').css({ 
         height: params.topHeight,
+        'max-width': params.topMaxWidth,
         'border-right': params.borderRight,
         'border-bottom': params.borderBottom
       });
@@ -40,6 +41,7 @@ angular.module('starter')
         doComputeViewStyles({
           rowHeight: w.innerHeight + 'px',
           topHeight: 'auto',
+          topMaxWidth: 'inherit',
           bottomHeight: 'auto',
           borderBottom: '',
           borderRight: '4px solid #dedede',
@@ -55,6 +57,7 @@ angular.module('starter')
         doComputeViewStyles({
           rowHeight: 'auto',
           topHeight: topViewHeight + 'px',
+          topMaxWidth: '100%',
           bottomHeight: bottomViewHeight + 'px',
           borderBottom: '4px solid #dedede',
           borderRight: '',
