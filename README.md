@@ -3,7 +3,7 @@ ionicDynamicMasterDetail
 
 Dynamic master detail layout powered by ionic framework.
 
-This [demo](http://wan54.github.io/ionicDynamicMasterDetail) is using Sidemenu (dynamic too) and Navigation.
+This [demo](http://wan54.github.io/ionicDynamicMasterDetail) is using the sidemenu (dynamic too) and navigation.
 
 The same templates used for tablets will be reusable on phones.
 
@@ -16,4 +16,4 @@ The only condition that the directive requires is `<ion-view>` must be the first
 There are two custom directives:
 
 - `dynamic-md-layout` enables dynamic master detail layout.
-- `should-expose-when` enables the sidemenu to be automatically hidden when opening sub contents from the main page.
+- `should-expose-when` allows the sidemenu to be automatically hidden when opening sub contents from the main page.
