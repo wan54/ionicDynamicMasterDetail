@@ -1,0 +1,20 @@
+.master {
+  height: inherit; 
+  width: inherit; 
+  max-width: inherit;
+}
+
+.detail {
+  height: inherit; 
+  width: inherit; 
+  top: inherit; 
+  left: inherit;
+}
+
+.col-dynamic-40 {
+  max-width: 40%;
+}
+
+.row-dynamic {
+  padding: 0;
+}

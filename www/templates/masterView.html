@@ -1,0 +1,33 @@
+<ion-view class="master">
+  <ion-content>
+    <ion-list>
+      <!-- collection-repeat causes android performance to suffer if android:hardwareAccelerated is set to true; tested on Samsung GT-N8010 Android 4.1.2 -->
+      <!-- <ion-item ng-click="openItem(ico)"
+                class="my-item item-icon-left item-icon-right"
+                collection-repeat="ico in icons"
+                collection-item-width="'100%'"
+                collection-item-height="55">
+
+        <i class="icon" ng-class="ico.icon"></i>
+        <h2>
+          {{ ico.name }}
+        </h2>
+        <i class="icon ion-ios7-arrow-right"></i>
+
+      </ion-item> -->
+
+      <ion-item ng-click="openItem(ico)"
+                class="my-item item-icon-left item-icon-right"
+                ng-repeat="ico in icons track by ico.id">
+
+        <i class="icon" ng-class="ico.icon"></i>
+        <h2>
+          {{ ico.name }}
+        </h2>
+        <i class="icon ion-ios7-arrow-right"></i>
+
+      </ion-item>
+
+    </ion-list>
+  </ion-content>
+</ion-view>

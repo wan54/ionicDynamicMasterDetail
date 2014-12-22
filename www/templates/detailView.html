@@ -1,0 +1,25 @@
+<ion-view class="detail">
+
+  <ion-content style="padding-left: 5px">
+      <div ng-if="!ico"><h3 style="text-align: center; padding: 50px;">Select an item from the list</h3></div>
+      <div ng-if="ico" class="list card" style="border-right: 1px solid #ddd">
+        <div class="item">
+          <div class="row row-center">
+              <div class="col" style="max-width: 20%"><h2>Icon</h2></div>
+              <div class="col"><h1><i class="icon" ng-class="ico.icon"></i></h1></div>
+          </div>  
+          <div class="row row-center">
+              <div class="col" style="max-width: 20%"><h2>Name</h2></div>
+              <div class="col">{{ico.name}}</div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="row row-center">
+              <div class="col" style="max-width: 20%"><h2>Description</h2></div>
+              <div class="col">{{ico.desc}}</div>
+          </div>
+        </div>
+      </div>
+  </ion-content>
+
+</ion-view>
