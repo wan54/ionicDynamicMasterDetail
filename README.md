@@ -13,7 +13,7 @@ On the browser try on on Chrome with device mode turned on.
 
 The only condition that the directive requires is `<ion-view>` must be the first element in master and detail templates.
 
-There are two directives:
+There are two custom directives:
 
 - `dynamic-md-layout` enables dynamic master detail layout.
 - `should-expose-when` enables the sidemenu to be automatically hidden when opening sub contents from the main page.
