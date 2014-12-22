@@ -7,9 +7,7 @@ This [demo](http://wan54.github.io/ionicDynamicMasterDetail) is using the sideme
 
 The same templates used for tablets will be reusable on phones.
 
-Simply add platform ios/android after you get the source and run/emulate.
-
-On the browser try on on Chrome with device mode turned on.
+Simply add platform ios/android after you get the source and run/emulate. On the browser try the demo on Chrome with device mode turned on.
 
 There are two custom directives:
 
