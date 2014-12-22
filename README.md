@@ -17,5 +17,3 @@ There are two custom directives:
 
 - `dynamic-md-layout` enables dynamic master detail layout.
 - `should-expose-when` enables the sidemenu to be automatically hidden when opening sub contents from the main page.
-
-The demo and codes are self-explanatory.
