@@ -3,7 +3,7 @@ ionicDynamicMasterDetail
 
 Dynamic master detail layout powered by ionic framework.
 
-This demo(http://wan54.github.io/ionicDynamicMasterDetail) is using Sidemenu (dynamic too) and Navigation.
+This [demo](http://wan54.github.io/ionicDynamicMasterDetail) is using Sidemenu (dynamic too) and Navigation.
 
 The same templates used for tablets will be reusable on phones.
 
