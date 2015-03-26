@@ -12,4 +12,4 @@ Simply add platform ios/android after you get the source and run/emulate. On the
 There are two custom directives:
 
 - `dynamic-md-layout` enables dynamic master detail layout. The only condition that the directive requires is `<ion-view>` must be the first element in master and detail templates.
-- `should-expose-when` allows the sidemenu to be automatically hidden when opening sub view from the menu base view.
+- `should-expose-when` allows the sidemenu to be automatically displayed or hidden based on the device width. On tablets the sidemenu generally should always be visible.
